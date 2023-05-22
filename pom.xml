@@ -17,6 +17,14 @@
         <kotlin.version>1.8.21</kotlin.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub kotlini Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/kotlini/PersistenceAPI</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
